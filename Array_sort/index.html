@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="inp">
+      <input type="text" id="nameInput" placeholder="Name" />
+      <input type="text" id="lastnameInput" placeholder="Last Name" />
+      <input type="number" id="ageInput" placeholder="Age" />
+    <button onclick="addtotable()" class="inpbnt">Submit</button>
+    </div>
+
+    <table id="table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div class="sortbnt">
+      <button onclick="sortTable('desc')">Sort by decreasing age</button>
+      <button onclick="sortTable('asc')">Sort by increasing age</button>
+    </div>
+   
+     
+   <script src="./script.js"></script>
+  </body>
+</html>

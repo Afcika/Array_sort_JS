@@ -1,0 +1,81 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: sans-serif;
+  background-color: grey;
+}
+.inp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center; 
+}
+
+.inpbnt {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #007bff; 
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.inpbnt:hover {
+  background-color: #0056b3; 
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 13px;
+  text-align: center;
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #d3d3d3;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+.sortbnt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 50px;
+}
+.sortbnt button{
+  padding: 20px 50px;
+  background-color: rgb(22, 135, 22);
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.sortbnt :first-child{
+  background-color: tomato;
+
+}
